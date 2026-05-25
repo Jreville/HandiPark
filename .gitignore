@@ -1,3 +1,7 @@
+# Claude Code — skills locaux, chaque dev installe les siens
+# npx skills add https://github.com/kepano/obsidian-skills
+.claude/skills/
+
 # Docker
 .env.docker.local
 
@@ -10,6 +14,7 @@ Thumbs.db
 .vscode/
 *.swp
 
-# Obsidian
+# Obsidian — on commit la config vault mais pas le cache de session
 docs/.obsidian/workspace.json
 docs/.obsidian/workspace-mobile.json
+docs/.obsidian/cache
