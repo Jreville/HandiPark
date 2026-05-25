@@ -1,0 +1,16 @@
+api_platform:
+    title: HandiPark API
+    version: 1.0.0
+    description: 'API de localisation des points d''intérêt handicap-friendly sur l''Île de la Réunion'
+    defaults:
+        stateless: true
+        cache_headers:
+            vary: ['Content-Type', 'Authorization', 'Origin']
+    formats:
+        jsonld:   ['application/ld+json']
+        json:     ['application/json']
+        html:     ['text/html']
+    docs_formats:
+        jsonld:   ['application/ld+json']
+        jsonopenapi: ['application/vnd.openapi+json']
+        html:     ['text/html']
