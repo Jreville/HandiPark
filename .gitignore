@@ -1,0 +1,15 @@
+# Docker
+.env.docker.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Obsidian
+docs/.obsidian/workspace.json
+docs/.obsidian/workspace-mobile.json
